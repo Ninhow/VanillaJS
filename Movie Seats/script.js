@@ -44,7 +44,7 @@ function populateUI(){
 }
 
 //Movie selector
-movieSelect.addEventListener('change', (evenet) =>{
+movieSelect.addEventListener('change', (event) =>{
     ticketPrice = event.target.value;
     setMovieData(event.target.selectedIndex, event.target.value)
     updateSelectedCount();
